@@ -7,5 +7,5 @@ gardnr add metric water electro-conductivity ec
 gardnr add metric water ph ph
 gardnr add metric water temperature water-temp
 
-gardnr add driver bluelab-connect bluelab_connect.driver:BluelabConnect -c log_file="log.csv" -cec_metric=ec -c ph_metric=ph -c temp_metric=water-temp
+gardnr add driver bluelab-connect bluelab_connect.driver:BluelabConnect -c log_file="log.csv" -c ec_metric=ec -c ph_metric=ph -c temp_metric=water-temp
 ```
